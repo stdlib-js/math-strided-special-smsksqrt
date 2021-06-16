@@ -48,7 +48,7 @@ tape( 'attached to the main export is a method providing an ndarray interface', 
 
 tape( 'if a native implementation is available, the main export is the native implementation', opts, function test( t ) {
 	var smsksqrt = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
+		'@stdlib/utils-try-require': tryRequire
 	});
 
 	t.strictEqual( smsksqrt, mock, 'returns native implementation' );
@@ -70,7 +70,7 @@ tape( 'if a native implementation is not available, the main export is a JavaScr
 	m = require( './../lib/smsksqrt.js' );
 
 	smsksqrt = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
+		'@stdlib/utils-try-require': tryRequire
 	});
 
 	t.strictEqual( smsksqrt, m, 'returns JavaScript implementation' );
