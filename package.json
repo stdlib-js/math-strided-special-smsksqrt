@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-strided-special-smsksqrt",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Compute the principal square root for each element in a single-precision floating-point strided array according to a strided mask array.",
   "license": "Apache-2.0",
   "author": {
