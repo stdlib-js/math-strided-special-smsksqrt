@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-strided-special-smsksqrt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compute the principal square root for each element in a single-precision floating-point strided array according to a strided mask array.",
   "license": "Apache-2.0",
   "author": {
@@ -41,7 +41,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-sqrtf": "^0.1.0",
+    "@stdlib/math-base-special-sqrtf": "^0.1.1",
     "@stdlib/strided-base-smskmap": "^0.1.1",
     "@stdlib/strided-napi-smskmap": "^0.1.1",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1",
